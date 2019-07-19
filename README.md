@@ -18,7 +18,7 @@ Each car has its own rental cost.
 
 is collected about them.
 Each client can contact the rental office several times.
-All customer calls are recorded, and the date of the call and the make of the car that interests them is recorded.
+All customer calls are recorded, and the date of the call and the brand of the car that interests them is recorded.
 
 When a car is issued a **contract** is concluded. Each contract includes the 
 * contract number

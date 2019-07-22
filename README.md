@@ -1,5 +1,4 @@
-# Database
-# Car rental
+# Database "Car rental"
 ## Domain Description
 
 You are the head of a commercial service in a car *rental company*. Your task is to track the financial performance of the rental. There are a number of **cars** of various brands in your fleet, which are additionally stored data such as

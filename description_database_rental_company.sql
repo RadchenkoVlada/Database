@@ -1,4 +1,4 @@
-CREATE DATABASE rental_company
+CREATE DATABASE rental_company;
 
 CREATE TABLE CUSTOMERS( 
 	id INTEGER NOT NULL, 
@@ -147,14 +147,14 @@ ORDER BY cost ASC;
 
 SELECT last_name, first_name
 FROM CUSTOMERS
-WHERE last_name LIKE "I%"
+WHERE last_name LIKE "I%";
 
 --List last name of customers, the date when they rented a car and car's brand, 
 --price of car must be from 7000 up to 50000
 
 SELECT DISTINCT CUSTOMERS.last_name, CONTRACTS.issue_date, CARS.brand
 FROM CUSTOMERS, CONTRACTS, CARS
-WHERE CARS.cost BETWEEN 7000 AND 50000
+WHERE CARS.cost BETWEEN 7000 AND 50000;
 
 --request that would give out the most 3 popular car's brand, judging by the calls
 
